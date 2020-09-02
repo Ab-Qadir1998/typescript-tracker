@@ -39,7 +39,9 @@
 .expense{
   color: red;
 }
-
+.balance h4{
+  margin: 0;
+}
 .history {
   list-style: none;
   margin: 0;
@@ -52,10 +54,15 @@
   padding-left: .5rem;
   border-radius: 8px;
   align-items: center;
+  margin: 10px 0;
+}
+.history p {
+  margin: 0;
+  padding: .3rem 0;
 }
 .MuiButton-root{
-  min-width: 40px !important;
-  height: 30px !important;
+  min-width: 20px !important;
+  height: 15px !important;
   margin: 0 !important;
   padding: 0 !important;
 }

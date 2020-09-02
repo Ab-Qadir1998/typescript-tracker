@@ -13,7 +13,7 @@ function App() {
         <History/>
         <AddTransaction/>    
     </div>
-  );
+  )
 }
 
 export default App;
